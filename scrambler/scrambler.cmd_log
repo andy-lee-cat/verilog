@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 scrambler.ngc scrambler.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o scrambler_map.ncd scrambler.ngd scrambler.pcf 
+par -w -intstyle ise -ol high -t 1 scrambler_map.ncd scrambler.ncd scrambler.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml scrambler.twx scrambler.ncd -o scrambler.twr scrambler.pcf 
+bitgen -intstyle ise -f scrambler.ut scrambler.ncd 
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 
+xst -intstyle ise -ifn "E:/DigTeleProject/scrambler/scrambler.xst" -ofn "E:/DigTeleProject/scrambler/scrambler.syr" 

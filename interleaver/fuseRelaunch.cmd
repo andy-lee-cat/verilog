@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/DigTeleProject/interleaver/interleaverTest_isim_beh.exe" -prj "E:/DigTeleProject/interleaver/interleaverTest_beh.prj" "work.interleaverTest" "work.glbl" 

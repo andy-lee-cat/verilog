@@ -1,0 +1,3 @@
+verilog work "Verilog HDL/AD_Table.v"
+verilog work "Verilog HDL/AD_SPI_Trans.v"
+verilog work "Verilog HDL/AD_Top.v"

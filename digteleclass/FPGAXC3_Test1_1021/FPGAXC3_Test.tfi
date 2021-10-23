@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+FPGAXC3_Test instance_name (
+    .Sys_CLK(Sys_CLK), 
+    .Sys_RST(Sys_RST), 
+    .COM(COM), 
+    .SEG(SEG), 
+    .Switch(Switch), 
+    .LED(LED), 
+    .AD_SDO(AD_SDO), 
+    .AD_SCLK(AD_SCLK), 
+    .AD_CS(AD_CS), 
+    .AD_SDI(AD_SDI), 
+    .Key(Key), 
+    .Uart_Tx(Uart_Tx), 
+    .Uart_Rx(Uart_Rx)
+    );
+
+

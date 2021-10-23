@@ -1,0 +1,29 @@
+Command line:
+   interleaverTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  30731
+
+Tue Oct 19 22:47:53 2021
+
+
+ Elaboration Time: 0.265625 sec
+
+ Current Memory Usage: 5804.43 Meg
+
+ Total Signals          : 20
+ Total Nets             : 26
+ Total Signal Drivers   : 12
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 17
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 318
+Total Line Count : 111
+
+ Total Simulation Time: 0.265625 sec
+
+ Current Memory Usage: 4703.43 Meg
+
+Tue Oct 19 23:00:44 2021
+

@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "E:/DigTeleProject/counter/AddGate.xst" -ofn "E:/DigTeleProject/counter/AddGate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 AddGate.ngc AddGate.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o AddGate_map.ncd AddGate.ngd AddGate.pcf 
+par -w -intstyle ise -ol high -t 1 AddGate_map.ncd AddGate.ncd AddGate.pcf 
+xst -intstyle ise -ifn "E:/DigTeleProject/counter/AddGate.xst" -ofn "E:/DigTeleProject/counter/AddGate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 AddGate.ngc AddGate.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o AddGate_map.ncd AddGate.ngd AddGate.pcf 
+par -w -intstyle ise -ol high -t 1 AddGate_map.ncd AddGate.ncd AddGate.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml AddGate.twx AddGate.ncd -o AddGate.twr AddGate.pcf 

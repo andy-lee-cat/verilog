@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/digiCExp/FPGAXC3_Test/FPGAXC3_Test_isim_beh.exe" -prj "C:/digiCExp/FPGAXC3_Test/FPGAXC3_Test_beh.prj" "work.FPGAXC3_Test" "work.glbl" 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\DigTeleProject\scrambler\scrambler.ncd
+OUTFILE=E:\DigTeleProject\scrambler\scrambler.bit
+FAMILY=Automotive Spartan3
+PART=xa3s50-4vqg100
+WORKINGDIR=E:\DigTeleProject\scrambler
+LICENSE=WebPack
+USER_INFO=212297849_0_0_432

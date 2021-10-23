@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj FPGAXC3_Test -o E:/FPGAXC3_Test/counter.tfi -lib work E:/FPGAXC3_Test//counter.v -module counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work E:/FPGAXC3_Test/counter.v -lang verilog -prj FPGAXC3_Test -o counter.spl -module counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e counter.spl E:/FPGAXC3_Test/counter.sym 

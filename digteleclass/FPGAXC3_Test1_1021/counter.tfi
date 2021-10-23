@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+counter instance_name (
+    .clr(clr), 
+    .clk(clk), 
+    .Q(Q)
+    );
+
+

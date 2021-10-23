@@ -1,0 +1,49 @@
+Creating log file E:\FPGAXC3_Test\FPGAXC3_Test_xpa.log.
+Loading device for application Rf_Device from file '3s500e.nph' in environment
+C:\Xilinx\14.7\ISE_DS\ISE\.
+   "FPGAXC3_Test" is an NCD, version 3.2, device xc3s500e, package vq100, speed
+-4
+
+INFO:Power:1693 - 
+   --------------------------------------------------------------
+                         The power estimate will be calculated using PRODUCTION
+   data.
+   --------------------------------------------------------------
+
+Design load 20% completeDesign load 25% completeDesign load 30% completeDesign load 60% completeDesign load 95% completeDesign load 100% completeRunning Vector-less Activity Propagation
+......
+Finished Running Vector-less Activity Propagation
+Finished Running Vector-less Activity Propagation 0 secs 
+WARNING:Power:1337 - Clock frequency for clock net "AD_CS_OBUF" is zero.
+WARNING:Power:1337 - Clock frequency for clock net "AD_SCLK_OBUF" is zero.
+WARNING:Power:1337 - Clock frequency for clock net "AD_Top/AD_SPI_Trans/CS1" is
+   zero.
+WARNING:Power:1337 - Clock frequency for clock net "LED_Nixietube/Div_CLK" is
+   zero.
+WARNING:Power:1337 - Clock frequency for clock net "Red_LED/Key/Div_CLK" is
+   zero.
+WARNING:Power:1337 - Clock frequency for clock net "Red_LED/Key/Div_CLK1" is
+   zero.
+WARNING:Power:1337 - Clock frequency for clock net "Red_LED/Key_Signal" is zero.
+WARNING:Power:1337 - Clock frequency for clock net "Sys_CLK_BUFGP" is zero.
+WARNING:Power:1337 - Clock frequency for clock net "Sys_CLK_BUFGP/IBUFG" is
+   zero.
+WARNING:Power:1337 - Clock frequency for clock net "Uart_Top/Uart_CLK" is zero.
+WARNING:Power:1337 - Clock frequency for clock net
+   "Uart_Top/Uart_ClkDiv/Uart_CLK1" is zero.
+WARNING:Power:1369 - Clock frequency for one or more clocks was not found
+   through
+   timing constraints (PCF file) or simulation data.  Without knowing the
+   clock frequency of all clocks, dynamic power information for those clock
+   domains will default to zero which may under-estimate the power for this
+   design.  To avoid this warning, provide at least one of the following:
+     1. The proper timing constraints (PERIOD) for clocks (re-implement design
+        and load the newly generated PCF file into XPower Analyzer)
+     2. A post PAR simulation-generated VCD or SAIF file indicating clock
+        frequencies
+     3. The clock frequency for clocks in the "By Type -> Clocks" view in the
+        XPower Analyzer GUI and then applying "Update Power Analysis"
+
+Design 'FPGAXC3_Test.ncd' and constraints 'FPGAXC3_Test.pcf' opened
+successfully
+

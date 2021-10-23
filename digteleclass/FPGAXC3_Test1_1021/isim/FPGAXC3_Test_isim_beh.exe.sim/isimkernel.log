@@ -1,0 +1,28 @@
+Command line:
+   FPGAXC3_Test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1189
+
+Fri Aug 24 16:44:33 2018
+
+
+ Elaboration Time: 0.187202 sec
+
+ Current Memory Usage: 697.455 Meg
+
+ Total Signals          : 72
+ Total Nets             : 121
+ Total Signal Drivers   : 29
+ Total Blocks           : 12
+ Total Primitive Blocks : 8
+ Total Processes        : 62
+ Total Traceable Variables  : 112
+ Total Scalar Nets and Variables : 902
+
+ Total Simulation Time: 0.390003 sec
+
+ Current Memory Usage: 1013.08 Meg
+
+Fri Aug 24 16:45:40 2018
+

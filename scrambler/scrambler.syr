@@ -1,0 +1,379 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: scrambler.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "scrambler.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "scrambler"
+Output Format                      : NGC
+Target Device                      : xa3s50-4-vqg100
+
+---- Source Options
+Top Module Name                    : scrambler
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "scrambler.v" in library work
+Module <scrambler> compiled
+No errors in compilation
+Analysis of file <"scrambler.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <scrambler> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <scrambler>.
+Module <scrambler> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <i> in unit <scrambler> has a constant value of 0 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <scrambler>.
+    Related source file is "scrambler.v".
+    Found 1-bit register for signal <dout>.
+    Found 1-bit register for signal <dout_valid>.
+    Found 1-bit xor2 for signal <dout$xor0000> created at line 33.
+    Found 7-bit register for signal <lfsr>.
+    Found 1-bit xor2 for signal <lfsr_0$xor0000> created at line 32.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <scrambler> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 9
+ 1-bit register                                        : 9
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <scrambler> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block scrambler, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : scrambler.ngr
+Top Level Output File Name         : scrambler
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 26
+#      INV                         : 2
+#      LUT2                        : 16
+#      LUT4                        : 8
+# FlipFlops/Latches                : 9
+#      FDCE                        : 2
+#      FDCPE                       : 7
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 11
+#      OBUF                        : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa3s50vqg100-4 
+
+ Number of Slices:                       14  out of    768     1%  
+ Number of Slice Flip Flops:              8  out of   1536     0%  
+ Number of 4 input LUTs:                 26  out of   1536     1%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of     63    22%  
+    IOB Flip Flops:                       1
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 9     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst_n_inv(rst_n_inv1_INV_0:O)      | NONE(dout)             | 2     |
+lfsr_0__and0000(lfsr_0__and00001:O)| NONE(lfsr_0)           | 1     |
+lfsr_0__and0001(lfsr_0__and00011:O)| NONE(lfsr_0)           | 1     |
+lfsr_1__and0000(lfsr_1__and00001:O)| NONE(lfsr_1)           | 1     |
+lfsr_1__and0001(lfsr_1__and00011:O)| NONE(lfsr_1)           | 1     |
+lfsr_2__and0000(lfsr_2__and00001:O)| NONE(lfsr_2)           | 1     |
+lfsr_2__and0001(lfsr_2__and00011:O)| NONE(lfsr_2)           | 1     |
+lfsr_3__and0000(lfsr_3__and00001:O)| NONE(lfsr_3)           | 1     |
+lfsr_3__and0001(lfsr_3__and00011:O)| NONE(lfsr_3)           | 1     |
+lfsr_4__and0000(lfsr_4__and00001:O)| NONE(lfsr_4)           | 1     |
+lfsr_4__and0001(lfsr_4__and00011:O)| NONE(lfsr_4)           | 1     |
+lfsr_5__and0000(lfsr_5__and00001:O)| NONE(lfsr_5)           | 1     |
+lfsr_5__and0001(lfsr_5__and00011:O)| NONE(lfsr_5)           | 1     |
+lfsr_6__and0000(lfsr_6__and00001:O)| NONE(lfsr_6)           | 1     |
+lfsr_6__and0001(lfsr_6__and00011:O)| NONE(lfsr_6)           | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.419ns (Maximum Frequency: 413.394MHz)
+   Minimum input arrival time before clock: 4.917ns
+   Maximum output required time after clock: 7.165ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.419ns (frequency: 413.394MHz)
+  Total number of paths / destination ports: 10 / 8
+-------------------------------------------------------------------------
+Delay:               2.419ns (Levels of Logic = 1)
+  Source:            lfsr_6 (FF)
+  Destination:       dout (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: lfsr_6 to dout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            2   0.720   0.945  lfsr_6 (lfsr_6)
+     LUT4:I2->O            1   0.551   0.000  dout_mux00001 (dout_mux0000)
+     FDCE:D                    0.203          dout
+    ----------------------------------------
+    Total                      2.419ns (1.474ns logic, 0.945ns route)
+                                       (60.9% logic, 39.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 40 / 18
+-------------------------------------------------------------------------
+Offset:              4.917ns (Levels of Logic = 3)
+  Source:            rst_n (PAD)
+  Destination:       lfsr_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst_n to lfsr_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            22   0.821   1.795  rst_n_IBUF (rst_n_IBUF)
+     LUT2:I1->O            1   0.551   0.996  lfsr_0_mux0000_SW0 (N2)
+     LUT4:I1->O            1   0.551   0.000  lfsr_0_mux0000 (lfsr_0_mux0000)
+     FDCPE:D                   0.203          lfsr_0
+    ----------------------------------------
+    Total                      4.917ns (2.126ns logic, 2.791ns route)
+                                       (43.2% logic, 56.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              7.165ns (Levels of Logic = 1)
+  Source:            dout_valid (FF)
+  Destination:       dout_valid (PAD)
+  Source Clock:      clk rising
+
+  Data Path: dout_valid to dout_valid
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.720   0.801  dout_valid (dout_valid_OBUF)
+     OBUF:I->O                 5.644          dout_valid_OBUF (dout_valid)
+    ----------------------------------------
+    Total                      7.165ns (6.364ns logic, 0.801ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.64 secs
+ 
+--> 
+
+Total memory usage is 252184 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

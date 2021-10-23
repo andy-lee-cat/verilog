@@ -1,0 +1,29 @@
+ISim log file
+Running: C:\digiCExp\FPGAXC3_Test\FPGAXC3_Test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/digiCExp/FPGAXC3_Test/FPGAXC3_Test_isim_beh.wdb 
+ISim P.20131013 (signature 0x8ef4fb42)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 200
+# quit -sim
+Incorrect usage of command 'quit'
+Usage: quit [-f | -s]
+for detailed help use 'help quit'
+# quit -s
+# help quit
+Usage: quit [-f | -s]
+    Terminates the current simulation and possibly the GUI as well.
+
+    quit
+       Terminates the simulation and exits the GUI after asking for
+       confirmation.
+    quit -f
+       Terminates the simulation and exits the GUI without asking for
+       confirmation ("forced").
+    quit -s
+       Terminates the simulation without exiting the GUI.
+# quit -f

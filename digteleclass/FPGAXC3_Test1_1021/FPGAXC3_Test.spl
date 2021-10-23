@@ -1,0 +1,19 @@
+[Inputs]
+Sys_CLK
+Sys_RST
+AD_SDO
+Uart_Rx
+=Switch[1:0]=
+=Key[1:0]=
+[Outputs]
+AD_SCLK
+AD_CS
+AD_SDI
+Uart_Tx
+=COM[1:0]=
+=SEG[7:0]=
+=LED[3:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel FPGAXC3_Test
+

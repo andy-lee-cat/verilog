@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\digiCExp\FPGAXC3_Test//TestMCS -x xcf04s -u 00000000 C:/digiCExp/FPGAXC3_Test/fpgaxc3_test.bit 
+
+PROM C:\digiCExp\FPGAXC3_Test\TestMCS.prm map: Fri Aug 24 17:10:18 2018
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 03b37ad8
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0004:547f     Aug 24 16:55:45 2018 C:/digiCExp/FPGAXC3_Test/fpgaxc3_test.bit

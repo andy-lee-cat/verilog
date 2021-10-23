@@ -1,0 +1,15 @@
+MO Uart_ClkDiv NULL "Verilog HDL/Uart_ClkDiv.v" vlg50/_uart___clk_div.bin 1634778092
+MO Red_LED NULL "Verilog HDL/Red_LED.v" vlg5B/_red___l_e_d.bin 1634778092
+MO FPGAXC3_Test NULL "Verilog HDL/FPGAXC3_Test.v" vlg47/_f_p_g_a_x_c3___test.bin 1634778092
+MO Uart_Rx NULL "Verilog HDL/Uart_Rx.v" vlg61/_uart___rx.bin 1634778092
+MO Uart_Tx NULL "Verilog HDL/Uart_Tx.v" vlg6B/_uart___tx.bin 1634778092
+MO LED_Nixietube NULL "Verilog HDL/LED_Nixietube.v" vlg29/_l_e_d___nixietube.bin 1634778092
+MO AD_Top NULL "Verilog HDL/AD_Top.v" vlg2B/_a_d___top.bin 1634778092
+MO counter NULL counter.v vlg10/counter.bin 1634717115
+MO BinToBCD NULL "Verilog HDL/BinToBCD.v" vlg5D/_bin_to_b_c_d.bin 1517662243
+MO Uart_Top NULL "Verilog HDL/Uart_Top.v" vlg5A/_uart___top.bin 1634778092
+MO AD_Table NULL "Verilog HDL/AD_Table.v" vlg00/_a_d___table.bin 1634778092
+MO SY_D_FF NULL counter.v vlg66/_s_y___d___f_f.bin 1634717115
+MO user NULL user.v vlg47/user.bin 1542257509
+MO AD_SPI_Trans NULL "Verilog HDL/AD_SPI_Trans.v" vlg4B/_a_d___s_p_i___trans.bin 1634778092
+MO Key NULL "Verilog HDL/Key.v" vlg45/_key.bin 1634778092

@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/AD_Top.xst" -ofn "E:/FPGAXC3_Test/AD_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 AD_Top.ngc AD_Top.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim AD_Top.ngd AD_Top_translate.v 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/AD_Top.xst" -ofn "E:/FPGAXC3_Test/AD_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 AD_Top.ngc AD_Top.ngd  
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/AD_Top.xst" -ofn "E:/FPGAXC3_Test/AD_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 AD_Top.ngc AD_Top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 AD_Top.ngc AD_Top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 AD_Top.ngc AD_Top.ngd  

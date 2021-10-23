@@ -1,0 +1,531 @@
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+vhdtdtfi -lib work {C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/Verilog HDL/FPGAXC3_Test.v} -lang verilog -prj FPGAXC3_Test -o FPGAXC3_Test.spl -module FPGAXC3_Test -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e FPGAXC3_Test.spl {C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.sym} 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/Hongzjzwh/Desktop/Sth. on Desktop/FPGAXC3_Test/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/digiCExp/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/digiCExp/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/digiCExp/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/digiCExp/FPGAXC3_Test/FPGAXC3_Test.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim FPGAXC3_Test.ngc FPGAXC3_Test_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim FPGAXC3_Test.ngc FPGAXC3_Test_synthesis.v 
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim FPGAXC3_Test.ngd FPGAXC3_Test_translate.v 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test_preroute.twx FPGAXC3_Test_map.ncd -o FPGAXC3_Test_preroute.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim FPGAXC3_Test.ngd FPGAXC3_Test_translate.v 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim FPGAXC3_Test.ngc FPGAXC3_Test_synthesis.v 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test_preroute.twx FPGAXC3_Test_map.ncd -o FPGAXC3_Test_preroute.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test_preroute.twx FPGAXC3_Test_map.ncd -o FPGAXC3_Test_preroute.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+vhdtdtfi -lang verilog -prj FPGAXC3_Test -o E:/FPGAXC3_Test/FPGAXC3_Test.tfi -lib work "E:/FPGAXC3_Test/Verilog HDL//FPGAXC3_Test.v" -module FPGAXC3_Test -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "E:/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "E:/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+vhdtdtfi -lib work {C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/Verilog HDL/FPGAXC3_Test.v} -lang verilog -prj FPGAXC3_Test -o FPGAXC3_Test.spl -module FPGAXC3_Test -template E:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e FPGAXC3_Test.spl {C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.sym} 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+xst -intstyle ise -ifn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.xst" -ofn "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 "FPGAXC3_Test.ngc" FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 
+vhdtdtfi -lib work {C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/Verilog HDL/FPGAXC3_Test.v} -lang verilog -prj FPGAXC3_Test -o FPGAXC3_Test.spl -module FPGAXC3_Test -template E:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e FPGAXC3_Test.spl {C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.sym} 
+vhdtdtfi -lang verilog -prj FPGAXC3_Test -o "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/FPGAXC3_Test.tfi" -lib work "C:/Users/luoyanan/Documents/WeChat Files/luo123_he/FileStorage/File/2021-10/shiyan/FPGAXC3_Test/Verilog HDL//FPGAXC3_Test.v" -module FPGAXC3_Test -template E:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "E:/DigTeleProject/digteleclass/FPGAXC3_Test1_1021/FPGAXC3_Test.xst" -ofn "E:/DigTeleProject/digteleclass/FPGAXC3_Test1_1021/FPGAXC3_Test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4 FPGAXC3_Test.ngc FPGAXC3_Test.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o FPGAXC3_Test_map.ncd FPGAXC3_Test.ngd FPGAXC3_Test.pcf 
+par -w -intstyle ise -ol high -t 1 FPGAXC3_Test_map.ncd FPGAXC3_Test.ncd FPGAXC3_Test.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FPGAXC3_Test.twx FPGAXC3_Test.ncd -o FPGAXC3_Test.twr FPGAXC3_Test.pcf -ucf FPGAXC3_Test.ucf 
+bitgen -intstyle ise -f FPGAXC3_Test.ut FPGAXC3_Test.ncd 

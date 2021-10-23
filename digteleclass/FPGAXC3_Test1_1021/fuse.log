@@ -1,0 +1,39 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/digiCExp/FPGAXC3_Test/FPGAXC3_Test_isim_beh.exe -prj C:/digiCExp/FPGAXC3_Test/FPGAXC3_Test_beh.prj work.FPGAXC3_Test work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/digiCExp/FPGAXC3_Test/Verilog HDL/Uart_Tx.v" into library work
+Analyzing Verilog file "C:/digiCExp/FPGAXC3_Test/Verilog HDL/Uart_Rx.v" into library work
+Analyzing Verilog file "C:/digiCExp/FPGAXC3_Test/Verilog HDL/Uart_ClkDiv.v" into library work
+Analyzing Verilog file "C:/digiCExp/FPGAXC3_Test/Verilog HDL/Key.v" into library work
+Analyzing Verilog file "C:/digiCExp/FPGAXC3_Test/Verilog HDL/AD_Table.v" into library work
+Analyzing Verilog file "C:/digiCExp/FPGAXC3_Test/Verilog HDL/AD_SPI_Trans.v" into library work
+Analyzing Verilog file "C:/digiCExp/FPGAXC3_Test/Verilog HDL/Uart_Top.v" into library work
+Analyzing Verilog file "C:/digiCExp/FPGAXC3_Test/Verilog HDL/Red_LED.v" into library work
+Analyzing Verilog file "C:/digiCExp/FPGAXC3_Test/Verilog HDL/LED_Nixietube.v" into library work
+Analyzing Verilog file "C:/digiCExp/FPGAXC3_Test/Verilog HDL/AD_Top.v" into library work
+Analyzing Verilog file "C:/digiCExp/FPGAXC3_Test/Verilog HDL/FPGAXC3_Test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 102120 KB
+Fuse CPU Usage: 655 ms
+Compiling module LED_Nixietube
+Compiling module Key
+Compiling module Red_LED
+Compiling module AD_SPI_Trans
+Compiling module AD_Table
+Compiling module AD_Top
+Compiling module Uart_ClkDiv
+Compiling module Uart_Tx
+Compiling module Uart_Rx
+Compiling module Uart_Top
+Compiling module FPGAXC3_Test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 Verilog Units
+Built simulation executable C:/digiCExp/FPGAXC3_Test/FPGAXC3_Test_isim_beh.exe
+Fuse Memory Usage: 117400 KB
+Fuse CPU Usage: 2449 ms

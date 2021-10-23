@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Nov 15 18:28:11 2018
+# Process ID: 4632
+# Log file: E:/FPGAXC3_Test/planAhead_run_5/planAhead.log
+# Journal file: E:/FPGAXC3_Test/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/FPGAXC3_Test/pa.fromHdl.tcl

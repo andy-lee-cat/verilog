@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/DigTeleProject/hamming_encoder/hammingtest_isim_beh.exe" -prj "E:/DigTeleProject/hamming_encoder/hammingtest_beh.prj" "work.hammingtest" "work.glbl" 

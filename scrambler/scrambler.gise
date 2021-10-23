@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="scrambler.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="scrambler.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="scrambler.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="scrambler.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="scrambler.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="scrambler.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="scrambler.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="scrambler.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="scrambler.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="scrambler.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="scrambler.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="scrambler.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="scrambler.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="scrambler.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="scrambler.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="scrambler.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="scrambler.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="scrambler.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="scrambler.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="scrambler.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="scrambler.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="scrambler.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="scrambler.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="scrambler.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="scrambler_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="scrambler_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="scrambler_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="scrambler_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="scrambler_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="scrambler_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="scrambler_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="scrambler_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="scrambler_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="scrambler_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="scrambler_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="scrambler_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="scrambler_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="scrambler_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="scrambler_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1634476757" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1634476757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1634476757" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6644129445058582376" xil_pn:start_ts="1634476757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1634476757" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1976988856663502468" xil_pn:start_ts="1634476757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1634476757" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1634476757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1634476757" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="3940446362607556210" xil_pn:start_ts="1634476757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1634476757" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5586979983773051280" xil_pn:start_ts="1634476757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1634476757" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-33770741586678138" xil_pn:start_ts="1634476757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1634559322" xil_pn:in_ck="180890929569765247" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-235225941238022871" xil_pn:start_ts="1634559317">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="scrambler.lso"/>
+      <outfile xil_pn:name="scrambler.ngc"/>
+      <outfile xil_pn:name="scrambler.ngr"/>
+      <outfile xil_pn:name="scrambler.prj"/>
+      <outfile xil_pn:name="scrambler.stx"/>
+      <outfile xil_pn:name="scrambler.syr"/>
+      <outfile xil_pn:name="scrambler.xst"/>
+      <outfile xil_pn:name="scrambler_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1634555582" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8119188910592780259" xil_pn:start_ts="1634555582">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1634555586" xil_pn:in_ck="-5923962509330719007" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-5452417494456081721" xil_pn:start_ts="1634555582">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="scrambler.bld"/>
+      <outfile xil_pn:name="scrambler.ngd"/>
+      <outfile xil_pn:name="scrambler_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1634555590" xil_pn:in_ck="-5923962509330719006" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="2757235694161129041" xil_pn:start_ts="1634555586">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="scrambler.pcf"/>
+      <outfile xil_pn:name="scrambler_map.map"/>
+      <outfile xil_pn:name="scrambler_map.mrp"/>
+      <outfile xil_pn:name="scrambler_map.ncd"/>
+      <outfile xil_pn:name="scrambler_map.ngm"/>
+      <outfile xil_pn:name="scrambler_map.xrpt"/>
+      <outfile xil_pn:name="scrambler_summary.xml"/>
+      <outfile xil_pn:name="scrambler_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1634555597" xil_pn:in_ck="-1296273994635686149" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-2144672536549014353" xil_pn:start_ts="1634555590">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="scrambler.ncd"/>
+      <outfile xil_pn:name="scrambler.pad"/>
+      <outfile xil_pn:name="scrambler.par"/>
+      <outfile xil_pn:name="scrambler.ptwx"/>
+      <outfile xil_pn:name="scrambler.unroutes"/>
+      <outfile xil_pn:name="scrambler.xpi"/>
+      <outfile xil_pn:name="scrambler_pad.csv"/>
+      <outfile xil_pn:name="scrambler_pad.txt"/>
+      <outfile xil_pn:name="scrambler_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1634555609" xil_pn:in_ck="-5923962509330719138" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="7076802196456288215" xil_pn:start_ts="1634555602">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="scrambler.bgn"/>
+      <outfile xil_pn:name="scrambler.bit"/>
+      <outfile xil_pn:name="scrambler.drc"/>
+      <outfile xil_pn:name="scrambler.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1634555597" xil_pn:in_ck="-5923962509330719138" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1634555594">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="scrambler.twr"/>
+      <outfile xil_pn:name="scrambler.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

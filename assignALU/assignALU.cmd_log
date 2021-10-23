@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/DigTeleProject/assignALU/assignALU.xst" -ofn "E:/DigTeleProject/assignALU/assignALU.syr" 

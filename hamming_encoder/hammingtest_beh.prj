@@ -1,0 +1,3 @@
+verilog work "hamming_encoder.v"
+verilog work "hammingtest.v"
+verilog work "E:/tool/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

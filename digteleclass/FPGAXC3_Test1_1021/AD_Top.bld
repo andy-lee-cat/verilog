@@ -1,0 +1,258 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc FPGAXC3_Test.ucf -p xc3s500e-vq100-4
+AD_Top.ngc AD_Top.ngd
+
+Reading NGO file "E:/FPGAXC3_Test/AD_Top.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "FPGAXC3_Test.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET "Sys_CLK" LOC = P36;>
+   [FPGAXC3_Test.ucf(1)]: NET "Sys_CLK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Sys_CLK" LOC = P36;> [FPGAXC3_Test.ucf(1)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SEG[0]" LOC = P12;>
+   [FPGAXC3_Test.ucf(2)]: NET "SEG[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG[0]" LOC = P12;> [FPGAXC3_Test.ucf(2)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SEG[1]" LOC = P24;>
+   [FPGAXC3_Test.ucf(3)]: NET "SEG[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG[1]" LOC = P24;> [FPGAXC3_Test.ucf(3)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SEG[2]" LOC = P22;>
+   [FPGAXC3_Test.ucf(4)]: NET "SEG[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG[2]" LOC = P22;> [FPGAXC3_Test.ucf(4)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SEG[3]" LOC = P17;>
+   [FPGAXC3_Test.ucf(5)]: NET "SEG[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG[3]" LOC = P17;> [FPGAXC3_Test.ucf(5)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SEG[4]" LOC = P16;>
+   [FPGAXC3_Test.ucf(6)]: NET "SEG[4]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG[4]" LOC = P16;> [FPGAXC3_Test.ucf(6)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SEG[5]" LOC = P15;>
+   [FPGAXC3_Test.ucf(7)]: NET "SEG[5]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG[5]" LOC = P15;> [FPGAXC3_Test.ucf(7)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SEG[6]" LOC = P18;>
+   [FPGAXC3_Test.ucf(8)]: NET "SEG[6]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG[6]" LOC = P18;> [FPGAXC3_Test.ucf(8)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SEG[7]" LOC = P23;>
+   [FPGAXC3_Test.ucf(9)]: NET "SEG[7]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SEG[7]" LOC = P23;> [FPGAXC3_Test.ucf(9)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "COM[0]" LOC = P26;>
+   [FPGAXC3_Test.ucf(10)]: NET "COM[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "COM[0]" LOC = P26;> [FPGAXC3_Test.ucf(10)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "COM[1]" LOC = P27;>
+   [FPGAXC3_Test.ucf(11)]: NET "COM[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "COM[1]" LOC = P27;> [FPGAXC3_Test.ucf(11)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "LED[0]" LOC = P79;>
+   [FPGAXC3_Test.ucf(14)]: NET "LED[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "LED[0]" LOC = P79;> [FPGAXC3_Test.ucf(14)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "LED[1]" LOC = P83;>
+   [FPGAXC3_Test.ucf(15)]: NET "LED[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "LED[1]" LOC = P83;> [FPGAXC3_Test.ucf(15)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "LED[2]" LOC = P84;>
+   [FPGAXC3_Test.ucf(16)]: NET "LED[2]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "LED[2]" LOC = P84;> [FPGAXC3_Test.ucf(16)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "LED[3]" LOC = P85;>
+   [FPGAXC3_Test.ucf(17)]: NET "LED[3]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "LED[3]" LOC = P85;> [FPGAXC3_Test.ucf(17)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "AD_CS" LOC = P62;>
+   [FPGAXC3_Test.ucf(18)]: NET "AD_CS" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "AD_CS" LOC = P62;> [FPGAXC3_Test.ucf(18)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "AD_SDO" LOC = P58;>
+   [FPGAXC3_Test.ucf(19)]: NET "AD_SDO" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "AD_SDO" LOC = P58;> [FPGAXC3_Test.ucf(19)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "AD_SDI" LOC = P60;>
+   [FPGAXC3_Test.ucf(20)]: NET "AD_SDI" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "AD_SDI" LOC = P60;> [FPGAXC3_Test.ucf(20)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "AD_SCLK" LOC = P61;>
+   [FPGAXC3_Test.ucf(21)]: NET "AD_SCLK" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "AD_SCLK" LOC = P61;> [FPGAXC3_Test.ucf(21)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "Key[0]" LOC = P2;>
+   [FPGAXC3_Test.ucf(22)]: NET "Key[0]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Key[0]" LOC = P2;> [FPGAXC3_Test.ucf(22)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "Key[1]" LOC = P3;>
+   [FPGAXC3_Test.ucf(23)]: NET "Key[1]" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Key[1]" LOC = P3;> [FPGAXC3_Test.ucf(23)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "Sys_RST" LOC = P11;>
+   [FPGAXC3_Test.ucf(24)]: NET "Sys_RST" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Sys_RST" LOC = P11;> [FPGAXC3_Test.ucf(24)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "Sys_RST" PULLUP;>
+   [FPGAXC3_Test.ucf(25)]: NET "Sys_RST" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "Uart_Tx" LOC = P10;>
+   [FPGAXC3_Test.ucf(26)]: NET "Uart_Tx" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Uart_Tx" LOC = P10;> [FPGAXC3_Test.ucf(26)]' could not be found and so
+   the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "Uart_Rx" LOC = P9;>
+   [FPGAXC3_Test.ucf(27)]: NET "Uart_Rx" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "Uart_Rx" LOC = P9;> [FPGAXC3_Test.ucf(27)]' could not be found and so
+   the Locate constraint will be removed.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:    25
+  Number of warnings:  24
+
+Total memory usage is 156516 kilobytes
+
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "AD_Top.bld"...
